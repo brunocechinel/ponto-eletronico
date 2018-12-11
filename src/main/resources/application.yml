@@ -1,0 +1,21 @@
+spring:
+    jpa:
+        properties:
+            hibernate:
+                show_sql: true
+                format_sql: true
+                type: trace
+        hibernate:
+            ddl-auto: none        
+    #Database
+    datasource:
+        url: jdbc:h2:file:~/pontoeletronicodb
+        username: sa
+        password: sa
+        driverClassName: org.h2.Driver
+        initialize: true
+        platform: h2
+    h2:
+        console:
+            enabled: true
+            path: /console
