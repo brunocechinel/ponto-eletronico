@@ -1,4 +1,4 @@
-package com.brunocechinel.pontoeletronico.api;
+package com.brunocechinel.pontoeletronico;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
