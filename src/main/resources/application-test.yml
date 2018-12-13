@@ -1,0 +1,8 @@
+spring:
+    datasource:
+        initialize: true
+test:
+    people:
+        save:
+            name: Success Save
+            email: sucesssave@test.com
